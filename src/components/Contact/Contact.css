@@ -1,0 +1,42 @@
+body {
+    background-color: #0f0f0f;
+    color: #FFFFFF;
+  }
+  
+  .custom-input {
+    background-color: #f5f6f8;
+    border: 1px solid #0f0f0f;
+    color: #1F2833;
+  }
+  .custom-input:focus {
+    background-color: #cfdbe2;
+    border: 1px solid #e6e6e6;
+    color: #1F2833;
+  }
+  
+  .custom-input::placeholder {
+    color: #1F2833;
+  }
+  
+  .btn-custom {
+    background-color: #0f0f0f;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0f0f0f;
+    color: #1F2833;
+  }
+  
+  .custom-label {
+    text-align: left !important;
+    color: #e6e6e6;
+    display: block; /* Ensures the label takes up the full width */
+  }
+  .button-from{
+    width: 100%;
+    height: 50px!important;
+    background-color: white;
+    color: green;
+  }
+  
