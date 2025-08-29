@@ -154,7 +154,7 @@ const Contact = () => {
                 <br />
                 By checking the box, I agree to receive text messages from BLACKHAWKS EXPRESS INC. Text messages may include updates or notifications. Msg & data rates may apply. Msg frequency varies. I also agree to the <a href="/terms-of-service" target="_blank"  style={{ color: "white", textDecoration: "underline" }}>Terms of Service</a> and <a href="/privacy-policy" target="_blank"  style={{ color: "white", textDecoration: "underline" }}>Privacy Policy</a>. Reply to text messages with HELP for assistance. Unsubscribe from text messages at any time by replying STOP.
               </p>
-              <ReCAPTCHA onChange={useCallback(() => setCaptchaDone(false))} sitekey="6Le6RHMqAAAAAEUw3aFqjCfJoOD0qGmSxoVU5C0n" />
+              <ReCAPTCHA onChange={useCallback(() => setCaptchaDone(false))} sitekey="6Lc3ibYrAAAAANfv7YUI2waWHV_YpvRQCLp2BxFv" />
               <Button type="submit" disabled={captchaDone || !agree} className='w-100 button-from mt-4'>
                 {agree ? "Agree and Submit" : "Submit"}
               </Button> 
